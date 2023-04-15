@@ -1,0 +1,112 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.container_form {
+    padding-bottom: 20%;
+    background-image: url(../../App_image/Dichvu/background.png);
+    width: 100%;
+    display: flex;
+    padding: 2%;
+    height: 93vh;
+    overflow: hidden;
+    overflow: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* left: 3px; */
+    flex-direction: column;
+    align-items: center;
+}
+
+.base {
+    background-image: url(../../App_image/Dichvu/background.png);overflow: hidden;
+    margin-top: 9%;
+    /* margin-bottom: 17%; */
+    width: inherit;
+}
+
+.list-1 {
+    width: 95%;
+    height: 20rem;
+    box-shadow: 6px 16px 12px 4px #80808059;
+    margin: 22px;
+    background-color: #ffffff;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+.img img {
+    height: 19rem;
+    width: 19rem;
+}
+.img-add {
+    object-fit: cover;
+    width: 256px;
+    height: 331px;
+    margin-top: 8px;
+}
+ .img-add:hover {
+    opacity: 0.5;
+}
+.list-1 .nd {
+    width: 100%;
+    margin: 14px;
+}
+.list-1 h4 {
+    font-weight: 700;
+    font-size: 53px;
+}
+.nd span {
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+    -webkit-line-clamp: 2;
+    display: -webkit-box;
+    font-size: 44px;
+}
+.text_dvu a {
+    font-weight: 700;
+    font-size: 30px;
+    color: #2143f3;
+}
+.list-1 p {
+    color: blue;
+    display: flex;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+    -webkit-line-clamp: 2;
+    font-weight: 600;
+    padding-top: 8px;
+    color: #0000ff;
+    font-weight: 700;
+    font-size: 31px;
+    flex-direction: column;
+}
+.text_dvu {
+    width: 100%;
+    display: flex;
+    font-size: 36px;
+    color: blue;
+    font-weight: 600;
+    justify-content: flex-start;
+}
+.btn_tuvan {
+    width: 169px;
+    font-weight: 600;
+    height: 60px;
+    border: none;
+    background-color: #f24e66;
+    color: #fff;
+    font-size: 28px;
+    border-radius: unset;
+    padding: 5px;
+}
+    .btn_tuvan:hover {
+        color: #f8f9fa;
+        background-color: #e3acb4;
+    }

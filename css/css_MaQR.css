@@ -1,0 +1,112 @@
+﻿body {
+    padding: 0;
+    margin: 0;
+}
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url('../fonts/Roboto-Regular.ttf') format('truetype');
+}
+p {
+    font-family: Roboto-Regular;
+}
+.container_form {
+    background-image: url('../web_module/images/a46f39377fd070b66cb6e7836906df62.png');
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    top:-0.3%;
+}
+
+.base {
+    overflow-y: hidden;
+    margin-top: 9%;
+    margin-bottom: 17%;
+    width: inherit;
+}
+.content_Qr .images img{
+    width: 100%;
+    height: auto;
+}
+.content_Qr .content_QR_code .images {
+    width: 80%;
+    height: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.block_Content {
+    display: block;
+    margin-top: 29%;
+}
+
+.content_share_now p {
+    display: block;
+    width: 56%;
+    display: flex;
+    height: 129px;
+    margin-right: 22%;
+    margin-left: 22%;
+    margin-top: -3.8%;
+    background: #e84f69;
+    border-radius: 10px;
+    font-family: Roboto-Regular;
+    font-style: normal;
+    font-weight: 700;
+    box-shadow: 6px 10px 11px 1px #79554852;
+    font-size: 50px;
+    color: #FFFFFF;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.content_share_now {
+    display:block;
+    width:100%;
+}
+.box_contain {
+    width: 75%;
+    height: 75%;
+    margin: auto;
+}
+
+.content_Qr {
+    background: #FFFFFF;
+    box-shadow: 6px 10px 11px 1px #79554852;
+    border-radius: 40px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+    height: 55rem;
+}
+.content_QR_code .sala_text p {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    color: #FA83A9;
+    text-align: center;
+    margin-top: 30px;
+}
+/*.content_QR_code {
+    width: fit-content;
+    height: fit-content;
+    margin-top: auto;
+    margin-left: auto;
+}*/
+.sala_icon img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: auto;
+}
+.sala_icon {
+    width: fit-content;
+    height: fit-content;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -55%;
+}

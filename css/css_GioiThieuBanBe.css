@@ -1,0 +1,87 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #dcdedf;
+}
+
+.container_form {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin-top: -8%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.base {
+    overflow-y: hidden;
+    overflow: hidden;
+    /* margin-top: 9%; */
+    /* margin-bottom: 17%; */
+    width: inherit;
+}
+
+.box_contain {
+    width: 90%;
+    display: flex;
+    height: 67%;
+    margin-right: auto;
+    margin-left: auto;
+    /* margin-top: 30%; */
+    background-color: white;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.title {
+    padding-top: 8%;
+}
+
+    .title h1 {
+        font-size: 3.3rem;
+        text-align: center;
+        width: 100%;
+    }
+
+.images_coin img {
+    width: 100%;
+}
+
+.content_share p {
+    font-size: 35px;
+    text-align: center;
+    width: 100%;
+}
+
+h3 {
+    margin-left: 10%;
+    font-size: 32px;
+}
+
+.share-now {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.Code input {
+    font-size: 45px;
+    border: 1px solid #CD5369;
+    text-align: center;
+}
+
+.button a {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 30px; /* display: flex; */ /* align-items: center; */
+}
+
+.button {
+    background-color: #CD5369;
+    display: flex;
+    align-items: center;
+    width: 26%;
+    justify-content: center;
+}

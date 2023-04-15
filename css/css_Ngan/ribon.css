@@ -1,0 +1,40 @@
+﻿.box .ribbon {
+    display: inline-block;
+    position: absolute;
+    left: 20px;
+    top: 38px;
+}
+
+    .box .ribbon b {
+        display: flex;
+        margin-left: 15px;
+        margin-top: -76px;
+        font-size: 22px;
+    }
+
+    .box .ribbon:before {
+        content: "";
+        display: block;
+        position: sticky;
+        bottom: -6px;
+        border: 57px solid #FA83A9;
+        margin-top: -39px;
+        margin-right: 5px;
+        margin-left: -16px;
+    }
+
+.ribbon-pink {
+    color: #FFFF;
+    text-align: center;
+    text-shadow: rgb(255 255 255 / 50%) 0px 1px 0px;
+    position: relative;
+    left: -14px;
+    top: -101px;
+    width: 96px;
+    font-size: 29px;
+}
+
+.box .ribbon:before {
+    border-bottom-color: transparent;
+    bottom: -40px;
+}

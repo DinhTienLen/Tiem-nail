@@ -1,0 +1,258 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+* {
+    font-family: system-ui;
+}
+
+.box {
+    /*width: 49rem;
+    height: 44rem;*/
+    height: 37rem;
+    margin: 4px;
+    background: #ffff;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -172px !important;
+    margin-left: 7px !important;
+    justify-content: unset !important;
+}
+
+body {
+    background: #dcdbdb;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -167px;
+    margin-left: 11px;
+}
+
+.base {
+    overflow: hidden;
+    /* margin-top: 11%; */
+    /* margin-bottom: 17%; */
+    width: inherit;
+}
+
+i {
+    font-size: 37px !important;
+    color: #e7495e;
+}
+
+.img1 {
+    width: 102%;
+    height: 73%;
+    margin-top: 2%;
+    margin-left: -4px;
+    object-fit: cover;
+}
+
+.img2 {
+    width: 102%;
+    height: 73%;
+    margin-top: 2%;
+    margin-left: -4px;
+}
+
+.img3 {
+    width: 102%;
+    height: 73%;
+    margin-top: 2%;
+    margin-left: -4px;
+}
+
+.img4 {
+    width: 102%;
+    height: 73%;
+    margin-top: 2%;
+    margin-left: -4px;
+}
+
+.img5 {
+    width: 102%;
+    height: 73%;
+    margin-top: 2%;
+    margin-left: -4px;
+    object-fit: cover;
+}
+
+.img6 {
+    width: 102%;
+    height: 73%;
+    margin-top: 2%;
+    margin-left: -4px;
+}
+
+.khung1 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 1;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    font-size: 37px;
+    font-size: 42px;
+}
+
+.block-tillte {
+    display: flex;
+    flex-direction: column;
+}
+
+.block-nailbox {
+    padding-top: 99px !important;
+    padding-bottom: 70rem;
+}
+.block-thongso{
+    color: black;
+}
+.block-dadat p {
+    font-size: 32px;
+    /* margin-right: 38px; */
+}
+
+.block-dadat {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4% 0;
+}
+
+    .block-dadat img {
+        width: 15%;
+        height: 68%;
+        margin-top: 0%;
+        /* margin-left: 136px; */
+        /* margin-left: 118px; */
+    }
+
+.khung2 {
+    font-size: 39px;
+    font-weight: 500;
+    color: #e7495e;
+}
+
+.block-dadat2 p {
+    margin-top: 22px;
+    font-size: 22px;
+    /* margin-right: 38px; */
+}
+
+.block-dadat2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+    .block-dadat2 img {
+        width: 15%;
+        height: 68%;
+        margin-top: 0%;
+        /* margin-left: 136px; */
+        /* margin-left: 118px; */
+    }
+
+.khung3 {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    margin-top: 9px;
+    font-size: 28px;
+}
+
+.block-dadat3 p {
+    margin-top: 22px;
+    font-size: 22px;
+    /* margin-right: 38px; */
+}
+
+.block-dadat3 {
+    justify-content: space-between;
+    display: flex;
+}
+
+    .block-dadat3 img {
+        width: 15%;
+        height: 68%;
+        margin-top: 0%;
+        /* margin-left: 136px; */
+        /* margin-left: 118px; */
+    }
+
+.khung4 {
+    margin-top: 9px;
+    font-size: 28px;
+    /* height: 33px; */
+}
+
+.block-dadat4 p {
+    margin-top: 55px;
+    font-size: 22px;
+    /* margin-right: 38px; */
+}
+
+.block-dadat4 {
+    display: flex;
+    justify-content: space-between;
+}
+
+    .block-dadat4 img {
+        width: 15%;
+        height: 68%;
+        margin-top: 7%;
+        margin-left: 136px;
+        margin-left: 118px;
+    }
+
+.khung5 {
+    margin-top: 9px;
+    font-size: 28px;
+}
+
+.block-dadat5 p {
+    margin-top: 55px;
+    font-size: 22px;
+    /* margin-right: 38px; */
+}
+
+.block-dadat5 {
+    display: flex;
+    justify-content: space-between;
+}
+
+    .block-dadat5 img {
+        width: 15%;
+        height: 68%;
+        /* margin-top: 7%; */
+        /* margin-left: 136px; */
+        /* margin-left: 118px; */
+    }
+
+.khung6 {
+    margin-top: 9px;
+    font-size: 22px;
+}
+
+.block-dadat6 p {
+    margin-top: 55px;
+    font-size: 22px;
+    margin-right: 38px;
+}
+
+.block-dadat6 {
+    display: flex;
+}
+
+    .block-dadat6 img {
+        width: 15%;
+        height: 68%;
+        margin-top: 7%;
+        margin-left: 136px;
+        margin-left: 118px;
+    }

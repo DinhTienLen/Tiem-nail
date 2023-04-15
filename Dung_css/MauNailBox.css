@@ -1,0 +1,66 @@
+﻿
+.base {
+    margin-top: 85px;
+    padding-bottom: 25%;
+    width: 100%;
+    background-image: url(../App_image/Dung/mau-nail-box/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.block-album{
+    width: 100%;
+}
+.row {
+    margin-right: unset !important;
+    margin-left: unset !important;
+}
+.block-nailbox {
+    box-shadow: 4px 7px 12px 3px #8080805e;
+    width: 60%;
+    padding-left: 0;
+    padding-right: 0;
+    padding: p;
+    height: 32%;
+    background-color: white;
+    margin: 4%;
+    /* margin-top: 22px; */
+    font-size: 39px;
+}
+    .block-nailbox img {
+        height: 20rem;
+        object-fit: cover;
+        /* width: 20rem; */
+        object-fit: cover;
+        width: 95%;
+        margin: 3%;
+    }
+    .block-nailbox i {
+        padding-left: 20px;
+        display: flex;
+        /* padding-top: 0%; */
+        padding-right: 3%;
+        align-items: center;
+    }
+.name-album {
+    text-transform: uppercase;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 100%;
+    color: #6e2f0a;
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+}
+/*.row {
+    color: #646e76;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    margin-top: 2%;
+}*/

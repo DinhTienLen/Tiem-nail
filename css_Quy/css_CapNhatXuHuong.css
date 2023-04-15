@@ -1,0 +1,79 @@
+.base {
+    padding-bottom: 10%;
+    display: flex;
+    background-color: antiquewhite;
+    overflow-y: hidden;
+    padding-top: 11%;
+    padding-bottom: 18%;
+    width: inherit;
+    justify-content: center;
+    flex-direction: column;
+}
+.khung-1 {
+    height: 648px;
+    display: block;
+    width: 95%;
+    padding: 0px 0%;
+    margin: 3%;
+    height: 615px;
+    /* margin-right: auto; */
+    /* margin-left: auto; */
+    margin-top: 0%;
+    background-color: white;
+    border-radius: 43px;
+    box-shadow: -2px 5px 17px 1px #80808057;
+}
+
+i {
+    color: #e7778d;
+}
+
+.block-thongtin {
+    font-size: 39px;
+    font-family: fantasy;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    
+.block-thongso {
+    font-weight: 600;
+    color: #00000096;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.img-1 {
+    width: 100%;
+    height: 71%;
+    border-radius: 43px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    object-fit: cover;
+}
+
+.block-veryperi {
+    padding: 1%;
+    width: 100%;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 55px;
+    display: block;
+    margin-top: 0%;
+}
+
+.img-2 {
+    width: 5%;
+    height: 5%;
+    margin-left: 10%;
+    margin-right: 2%;
+}
+
+.block-themgiohang {
+    font-size: 31px;
+}
+
+.khung-2 {
+    display: flex;
+    text-align: center;
+}

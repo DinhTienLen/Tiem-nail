@@ -1,0 +1,172 @@
+﻿.cart-ring {
+    position: fixed;
+    top: 42%;
+    /*right: 0;*/
+    z-index: 1000;
+}
+.tab-nav-container a:hover {
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.5);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.5);
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.5);
+    transition: all 200ms ease-in;
+    transform: scale(1.5);
+}
+    .cart-ring a {
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        width: 128px;
+        height: 84px;
+        display: flex;
+        font-size: 38px;
+        line-height: 1.5;
+        border-radius: 21px;
+        font-weight: 600;
+        align-items: center;
+        justify-content: center;
+        right: -191px;
+        text-align: center;
+        box-shadow: 8px 7px 12px #80808085;
+    }
+
+.cart-ring-h {
+    background-image: url(/web_module/images/image_DanhGia/bck-cam.png);
+}
+
+.cart-ring-g {
+    background-image: url(/web_module/images/image_DanhGia/bck-xanh.png);
+    margin-top: 10px;
+}
+
+.cart-ring-y {
+    background-image: url(/web_module/images/image_DanhGia/bck-tim.png);
+    margin-top: 10px;
+}
+.thong-bao {
+    font-size: 32px;
+    background-color: #ea74ad;
+    font-weight: 700;
+    z-index: 1001;
+    color: #ffffff !important;
+    margin-right: 9px;
+    margin-left: 30px;
+    width: 43px;
+    margin-top: -62px;
+    border-radius: 28px;
+    display: flex;
+    height: 43px;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+.circle {
+    position: fixed;
+    left: 95%;
+    transform: translateX(-50%);
+    bottom: calc(100px - #{$circle-radius / 2});
+    top: 14px;
+    margin-bottom: 0;
+    border-radius: 40px;
+    display: flex;
+    width: 60px;
+    height: 60px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background-color: #ea74ad;
+    z-index: 9;
+    box-shadow: 0 5px 5px rgb(255 147 85 / 35%);
+    transition: height 0.3s;
+}
+
+    .circle:hover {
+        height: 175px;
+        border-radius: 50px;
+    }
+
+    .circle .plus-icon {
+        color: white;
+        font-size: 27px;
+        transition: opacity 0.3s, transform 0.2s;
+    }
+
+    .circle:hover .plus-icon {
+        transform: rotate(360deg);
+        opacity: 0;
+    }
+
+    .circle .social {
+        position: absolute;
+        top: 195px;
+        color: white;
+        /* background-color: rgba(255, 212, 212, 0.308); */
+        height: 60px;
+        width: 60px;
+        margin-bottom: 5px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 25px;
+        cursor: pointer;
+    }
+
+        .circle .social:nth-child(2) {
+            opacity: 0;
+            transition: opacity 0.3s, top 0.5s ease;
+        }
+
+        .circle .social:nth-child(3) {
+            opacity: 0;
+            transition: opacity 0.3s, top 0.5s 0.1s ease;
+        }
+
+        .circle .social:nth-child(4) {
+            opacity: 0;
+            transition: opacity 0.3s, top 0.5s 0.22s ease;
+            margin-bottom: 0px;
+        }
+        .circle .social:nth-child(5) {
+            opacity: 0;
+            transition: opacity 0.3s, top 0.5s 0.22s ease;
+        }
+
+    .circle:hover .social:nth-child(2) {
+        opacity: 1;
+        top: 8px;
+    }
+
+    .circle:hover .social:nth-child(3) {
+        opacity: 1;
+        top: calc(-12px + 59px + 13px);
+    }
+
+    .circle:hover .social:nth-child(4) {
+        opacity: 1;
+        top: calc(-37px + 82px + 5px + 60px + 5px);
+    }
+    .circle:hover .social:nth-child(5) {
+        opacity: 1;
+        top: calc(-27px + 91px + 5px + 60px + 5px);
+    }
+
+.circleBackground {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: calc(100px - #{$circle-radius + 20} / 2);
+    margin-bottom: 0;
+    height: calc(#{$circle-radius} + 20px);
+    width: calc(#{$circle-radius} + 20px);
+    border-radius: calc(#{$circle-radius + 20} / 2);
+    background-color: $backgroundColor;
+}
+
+.icon-home,
+.icon-settings {
+    font-size: 29px;
+}

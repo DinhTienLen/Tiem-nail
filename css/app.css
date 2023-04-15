@@ -1,0 +1,9 @@
+﻿.navabar i{
+    display: flex;
+    justify-content: flex-start
+}
+i {
+    font-size: 42px;
+    color: white;
+    padding: 1%
+}

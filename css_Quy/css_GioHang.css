@@ -1,0 +1,315 @@
+.base {
+    border: none;
+    margin: 21px 0;
+    display: block;
+    margin-top: 2rem !important;
+    position: relative;
+    padding-left: -30px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+* {
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
+
+input[type=radio]:checked + label {
+    background: linear-gradient(135deg, rgb(250, 124, 187), rgb(241, 70, 88));
+    color: white;
+    box-shadow: 0px 0px 20px rgb(214 126 126);
+}
+input[type=radio] {
+    display: none;
+}
+section > div {
+    flex: 1;
+    padding: 0.1%;
+    width: 68%;
+}
+label {
+    border: 1px solid;
+    padding: 22%;
+}
+section {
+    display: flex;
+    flex-flow: row nowrap;
+    /* margin-left: 3%; */
+    margin: 4%;
+    /* margin-right: auto; */
+    /* margin-top: 7%; */
+    justify-content: center;
+}
+input {
+    font-weight: 600;
+    text-align: center;
+    transform: unset;
+    width: 22%;
+    text-transform: uppercase;
+    /* color: blue !important; */
+    border: 1px solid gray;
+    justify-content: center;
+}
+
+.dropdown-item {
+    display: flex;
+    font-size: 31px;
+}
+
+.block-check {
+    display: flex;
+    WIDTH: 100%;
+    justify-content: flex-end;
+}
+
+    .block-check i {
+        font-size: 4rem;
+        padding: 4%;
+        color: #e7495e;
+        margin-right: 18px
+    }
+
+.base {
+    margin-top: 8rem;
+    display: block;
+    position: relative;
+    padding-left: -30px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+/*.base input {
+        position: absolute;
+        opacity: 0;
+        cursor: pointer;
+        height: 0;
+        width: 0;
+    }*/
+
+/* Create a custom checkbox */
+.checkmark {
+    position: absolute;
+    left: 92%;
+    height: 25px;
+    /* border: 2px solid #ea6fa4; */
+    width: 47px;
+    height: 47px;
+    border-radius: 59;
+    background-color: #ea6fa463;
+}
+
+/* On mouse-over, add a grey background color */
+.base:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.base input:checked ~ .checkmark {
+    background-color: #dc3545;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+input[type="checkbox"]:checked + label {
+}
+/* Show the checkmark when checked */
+.base input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+.base .checkmark:after {
+    left: 9px;
+    top: 13px;
+    width: 22px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(277deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(42deg);
+}
+/*thu 2*/
+#ContentPlaceHolder1_upGioHang{
+    margin-bottom: 20rem;
+}
+.base-tong {
+    margin-top: 10%;
+    overflow-y: hidden;
+    margin-bottom: 74%;
+    width: inherit;
+}
+
+.base_form {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none
+}
+
+hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    border-width: 1px;
+    width: 95%;
+    background-color: red;
+}
+
+.block-gia {
+    position: fixed;
+    box-shadow: 0 11px 25px 1px #80808045;
+    padding: 2%;
+    background-color: #ffffff;
+    font-size: 40px;
+    line-height: 5rem;
+    left: 0%;
+    top: 53%;
+    height: 55rem;
+    width: 100%;
+}
+
+.block-tinhtien {
+    padding: 1% 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+    .block-tinhtien a {
+        padding: 2%;
+        font-weight: 700;
+        color: white;
+        display: flex;
+        width: 22%;
+        background-color: #fb3a6a;
+        font-size: 32px;
+        align-items: center;
+        justify-content: center;
+    }
+
+.block-gift {
+    display: flex;
+    font-weight: 600;
+    padding: 1% 0px;
+    justify-content: space-between;
+}
+
+    .block-gift i {
+        color: #dc3f69;
+        font-size: 55px;
+        display: flex;
+        align-items: center;
+    }
+
+    .block-gift input {
+        border: none;
+        width: 79% !important;
+        font-size: 30px;
+        border-bottom: 1px solid gray;
+    }
+
+.img-1 {
+    width: 20rem;
+    height: 20rem;
+    margin: 0 3%;
+    object-fit: cover;
+}
+
+.circle {
+    background: #456BD9;
+    border-radius: 50%;
+    height: 3em;
+    width: 3em;
+    margin-left: 190px;
+    margin-top: auto;
+}
+
+.block_Nailboxmau678 {
+    font-size: 38px;
+}
+
+.btn-MuaNgay {
+    background-color: pink;
+    border: none;
+    color: white;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 31px;
+    margin-left: 83%;
+    margin-top: 12%;
+    border-radius: 10px;
+    box-shadow: -2px 5px 17px 1px #80808057;
+}
+
+.base-2 {
+    margin-top: 10%;
+}
+
+.text-1 {
+    background-color: pink;
+    border: none;
+    color: white;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+    margin-left: 24%;
+    width: 43%;
+}
+
+.text-2 {
+    background-color: pink;
+    border: none;
+    color: white;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+    margin-left: 27.3%;
+    width: 43%;
+}
+
+.btn-2 {
+    background-color: pink;
+    border: none;
+    color: white;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 31px;
+    border-radius: 10px;
+    width: 94%;
+    margin-left: 3%;
+    margin-top: 4%;
+    position: absolute;
+    box-shadow: -2px 5px 17px 1px #80808057;
+}
+
+.block-base-2 {
+    font-size: 40px;
+    margin-left: 5%;
+}

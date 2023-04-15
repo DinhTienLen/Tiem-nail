@@ -1,0 +1,121 @@
+﻿
+html {
+    background-color: #F5F5F5;
+}
+
+.base {
+    padding: 10% 0 29% 0;
+    background: whitesmoke;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.head-box {
+    background: white;
+    padding: 30px;
+    position: relative;
+}
+
+.body-box {
+    padding-left: 30px;
+    color: slategray;
+}
+
+.status-box {
+    color: #f66794;
+}
+
+.spacebtwbox {
+    height: 35px;
+    width: 100%;
+    background-color: #F5F5F5;
+}
+
+.icon-checked {
+    position: absolute;
+    right: 10px;
+    font-size: 75px;
+    color: #f27099;
+    margin-right: 30px;
+}
+.icon-plus {
+    position: absolute;
+    right: 10px;
+    font-size: 65px;
+    color: #adadad;
+    margin-right: 30px;
+}
+.btn-sdc {
+    position: absolute;
+    bottom: 10%;
+    right: 3%;
+    font-size: 100px;
+    color: #f27099;
+}
+.box-diachi {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 26px;
+    cursor: pointer;
+    font-size: 22px;
+    padding: 3% 0;
+    background: white;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+    /* Hide the browser's default radio button */
+    .box-diachi input {
+        position: absolute;
+        opacity: 0;
+        cursor: pointer;
+    }
+
+/* Create a custom radio button */
+.checkmark {
+    position: absolute;
+    top: 15%;
+    left: 91%;
+    height: 45px;
+    width: 45px;
+    background-color: #eb75b347;
+    border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.box-diachi:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.box-diachi input:checked ~ .checkmark {
+    background-color: #e74c65;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.box-diachi input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.box-diachi .checkmark:after {
+    top: 8px;
+    left: 7.5px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: white;
+}
+
+.box {
+    font-size: 37px;
+}

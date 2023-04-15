@@ -1,0 +1,268 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="WebSiteMasterPage.master.cs" Inherits="WebSiteMasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <link href="css/base.css" rel="stylesheet" />
+    <link href="css/font.css" rel="stylesheet" />
+    <link href="css/footerweb.css" rel="stylesheet" />
+    <link href="css/app.css" rel="stylesheet" />
+    <%--<script src="js/base.js"></script>--%>
+    <%--    <link href="OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css" rel="stylesheet" />
+    <link href="OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css" rel="stylesheet" />--%>
+    <%-- <link href="OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css" rel="stylesheet" />
+    <link href="OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css" rel="stylesheet" />--%>
+    <%--<script src="js/jquery.min.js"></script>--%>
+    <%--<script src="OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>--%>
+    <link rel="stylesheet" href="https://code.jquery.com/jquery-3.6.0.min.js">
+    <%--<script src="OwlCarousel2-2.3.4/dist/owl.carousel.js"></script>--%>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script nonce="469de3aa-2255-4be9-8e99-e0a26f79a129">
+        (function (w, d) {
+            ! function (a, e, t, r) {
+                a.zarazData = a.zarazData || {}, a.zarazData.executed = [], a.zaraz = {
+                    deferred: []
+                }, a.zaraz.q = [], a.zaraz._f = function (e) {
+                    return function () {
+                        var t = Array.prototype.slice.call(arguments);
+                        a.zaraz.q.push({
+                            m: e,
+                            a: t
+                        })
+                    }
+                };
+                for (const e of ["track", "set", "ecommerce", "debug"]) a.zaraz[e] = a.zaraz._f(e);
+                a.addEventListener("DOMContentLoaded", (() => {
+                    var t = e.getElementsByTagName(r)[0],
+                        z = e.createElement(r),
+                        n = e.getElementsByTagName("title")[0];
+                    for (n && (a.zarazData.t = e.getElementsByTagName("title")[0].text), a.zarazData.w = a.screen.width, a.zarazData.h = a.screen.height, a.zarazData.j = a.innerHeight, a.zarazData.e = a.innerWidth, a.zarazData.l = a.location.href, a.zarazData.r = e.referrer, a.zarazData.k = a.screen.colorDepth, a.zarazData.n = e.characterSet, a.zarazData.o = (new Date).getTimezoneOffset(), a.zarazData.q = []; a.zaraz.q.length;) {
+                        const e = a.zaraz.q.shift();
+                        a.zarazData.q.push(e)
+                    }
+                    z.defer = !0, z.referrerPolicy = "origin", z.src = "/cdn-cgi/zaraz/s.js?z=" + btoa(encodeURIComponent(JSON.stringify(a.zarazData))), t.parentNode.insertBefore(z, t)
+                }))
+            }(w, d, 0, "script");
+        })(window, document);
+    </script>
+    <script>
+        (function (w, d) {
+            ! function (a, e, t, r) {
+                a.zarazData = a.zarazData || {}, a.zarazData.executed = [], a.zaraz = {
+                    deferred: []
+                }, a.zaraz.q = [], a.zaraz._f = function (e) {
+                    return function () {
+                        var t = Array.prototype.slice.call(arguments);
+                        a.zaraz.q.push({
+                            m: e,
+                            a: t
+                        })
+                    }
+                };
+                for (const e of ["track", "set", "ecommerce", "debug"]) a.zaraz[e] = a.zaraz._f(e);
+                a.addEventListener("DOMContentLoaded", (() => {
+                    var t = e.getElementsByTagName(r)[0],
+                        z = e.createElement(r),
+                        n = e.getElementsByTagName("title")[0];
+                    for (n && (a.zarazData.t = e.getElementsByTagName("title")[0].text), a.zarazData.w = a.screen.width, a.zarazData.h = a.screen.height, a.zarazData.j = a.innerHeight, a.zarazData.e = a.innerWidth, a.zarazData.l = a.location.href, a.zarazData.r = e.referrer,
+                        a.zarazData.k = a.screen.colorDepth, a.zarazData.n = e.characterSet, a.zarazData.o = (new Date).getTimezoneOffset(), a.zarazData.q = []; a.zaraz.q.length;) {
+                        const e = a.zaraz.q.shift();
+                        a.zarazData.q.push(e)
+                    }
+                    z.defer = !0, z.referrerPolicy = "origin",
+                        z.src = "/cdn-cgi/zaraz/s.js?z=" + btoa(encodeURIComponent(JSON.stringify(a.zarazData))), t.parentNode.insertBefore(z, t)
+                }))
+            }(w, d, 0, "script");
+        })(window, document);
+    </script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <header class="header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-2">
+                        <div class="header__logo">
+                            <a href="./web_Default.aspx">
+                                <img src="web_image/logo-2.jpg"></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-10">
+                        <div class="header__options">
+                            <nav class="header__menu mobile-menu">
+                                <ul>
+                                    <li class="active"><a href="./index.html">TRANG CHỦ</a></li>
+                                    <li><a href="./about.html">GIỚI THIỆU</a></li>
+                                    <li><a href="./services.html">ĐÁNH GIÁ</a></li>
+                                    <li><a href="./product.html">MẪU NAIL</a></li>
+                                    <li><a href="#">DỊCH VỤ</a>
+                                        <ul class="dropdown">
+                                            <li><a href="./works.html">GỘI</a></li>
+                                            <li><a href="./cart.html">NAIL BOX</a></li>
+                                            <li><a href="./checkout.html">GÂM CHÂN THẢO DƯỢC</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="./blog.html">TIN TỨC</a></li>
+                                </ul>
+                            </nav>
+                            <div class="header__option__right">
+                                <div class="search__option search-switch">
+                                    <img src="#"alt="">
+                                </div>
+                                <a href="#" class="primary-btn">ĐẶT LỊCH NGAY</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="canvas__open"><i class="fa fa-bars"></i></div>
+            </div>
+        </header>
+
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__contact">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6 col-sm-6">
+                            <div class="footer__contact__item">
+                                <div class="footer__contact__icon">
+                                    <i class="fa fa-map-marker"></i>
+                                </div>
+                                <h5>Address</h5>
+                                <p>509 Myrtle Ave, Brooklyn, NY 11205, USA</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6">
+                            <div class="footer__contact__item">
+                                <div class="footer__contact__icon">
+                                    <i class="fa fa-phone"></i>
+                                </div>
+                                <h5>Phone</h5>
+                                <p>+1 718-783-1936 +1 718-783-1966</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6">
+                            <div class="footer__contact__item">
+                                <div class="footer__contact__icon">
+                                    <i class="fa fa-envelope"></i>
+                                </div>
+                                <h5>Email</h5>
+                                <p><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="602d010b0515104e01121409131420070d01090c4e030f0d">[email&#160;protected]</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer__content">
+                    <div class="row">
+                        <div class="col-lg-12 text-center">
+                            <div class="footer__logo">
+                                <a href="./index.html">
+                                    <img src="data:image/webp;base64,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"
+                                        alt="" data-pagespeed-url-hash="2174608914" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></a>
+                                <h6>Follow us on <a href="#">@makeupartist</a></h6>
+                            </div>
+                            <div class="footer__instagram__pic">
+                                <img src="img/instagram/xinsta-1.jpg.pagespeed.ic.ekjsTTJXPU.webp" alt="" data-pagespeed-url-hash="683228349" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                                <img src="img/instagram/xinsta-2.jpg.pagespeed.ic.qNKoymqjLZ.webp" alt="" data-pagespeed-url-hash="977728270" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                                <img src="img/instagram/xinsta-3.jpg.pagespeed.ic.6xUkjr2cwj.webp" alt="" data-pagespeed-url-hash="1272228191" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                                <img src="img/instagram/xinsta-4.jpg.pagespeed.ic.kCfgrv_Of9.webp" alt="" data-pagespeed-url-hash="1566728112" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                                <img src="img/instagram/xinsta-5.jpg.pagespeed.ic.g7FU5wbPEY.webp" alt="" data-pagespeed-url-hash="1861228033" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer__copyright">
+                    <div class="row">
+                        <div class="col-lg-9 col-md-9">
+
+                            <p class="footer__copyright__text">
+                                Copyright &copy;
+                            <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+                                <script>
+                                    document.write(new Date().getFullYear());
+                                </script>
+                                All rights reserved | This template is made with <i class="fa fa-heart color-danger" aria-hidden="true"></i>by <a href="https://colorlib.com" target="_blank" rel="nofollow noopener">Colorlib</a>
+                            </p>
+
+                        </div>
+                        <div class="col-lg-3 col-md-3">
+                            <div class="footer__copyright__social">
+                                <a href="#"><i class="fa fa-facebook"></i></a>
+                                <a href="#"><i class="fa fa-twitter"></i></a>
+                                <a href="#"><i class="fa fa-instagram"></i></a>
+                                <a href="#"><i class="fa fa-linkedin"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+        <div class="search-model">
+            <div class="h-100 d-flex align-items-center justify-content-center">
+                <div class="search-close-switch">+</div>
+                <form class="search-model-form">
+                    <input type="text" id="search-input" placeholder="Search here.....">
+                </form>
+            </div>
+        </div>
+        <script src="js/jquery-3.3.1.min.js"></script>
+        <script src="js/base.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="js/jquery-3.3.1.min.js"></script>
+        <script src="js/base.js"></script>
+        <script>
+            eval(mod_pagespeed_1mUsqEVdzb);
+        </script>
+        <script>
+            eval(mod_pagespeed_z9htQ$EFOA);
+        </script>
+        <script>
+            eval(mod_pagespeed__OHgtJEqur);
+        </script>
+        <script src="js/slicknav.js"></script>
+        <script>
+            eval(mod_pagespeed_oOjn5ZS$37);
+        </script>
+        <script>
+            eval(mod_pagespeed_RjCyhpvBMT);
+        </script>
+        <script>
+            $(document).ready(function () {
+                $('.owl-carousel').owlCarousel({
+                    loop: true,
+                    margin: 10,
+                    nav: true,
+                    responsive: {
+                        0: {
+                            items: 1
+                        },
+                    }
+                })
+            });
+        </script>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag('js', new Date());
+
+            gtag('config', 'UA-23581568-13');
+        </script>
+        <script defer src="https://static.cloudflareinsights.com/beacon.min.js/v652eace1692a40cfa3763df669d7439c1639079717194" integrity="sha512-Gi7xpJR8tSkrpF7aordPZQlW2DLtzUlZcumS8dMQjwDHEnw9I7ZLyiOj/6tZStRBGtGgN6ceN6cMH8z7etPGlw==" data-cf-beacon='{"rayId":"6fb8caa06c6a1991","token":"cd0b4b3a733644fc843ef0b185f98241","version":"2021.12.0","si":100}'
+            crossorigin="anonymous"></script>
+    </form>
+</body>
+</html>

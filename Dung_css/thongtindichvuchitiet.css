@@ -1,0 +1,76 @@
+﻿body {
+    padding: 0;
+    margin: 0;
+}
+
+.box {
+    display: flex;
+    height: 87rem;
+    margin-top: 43px;
+    margin-left: -11px;
+    background: #ffffff;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -78px;
+    margin-left: -79px;
+    justify-content: center;
+}
+
+.base {
+    overflow-y: hidden;
+    margin-top: 11%;
+    margin-bottom: 17%;
+    width: inherit;
+}
+
+.row {
+    background-image: url('../App_image/Dichvu/background.png');
+    position: fixed;
+    width: 108%;
+    height: 85%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    left: 45px;
+    margin-top: -19px;
+}
+
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url('../../fonts/Roboto-Regular.ttf') format('truetype');
+}
+
+.nd {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    padding-top: -32px;
+}
+
+    .nd p {
+        font-size: 50px;
+        font-weight: 700;
+        margin-left: 306px;
+    }
+
+.block-nd {
+    display: flex;
+}
+
+.block-nd {
+    display: block;
+    display: inline-flex;
+    margin-left: 12px;
+    margin-bottom: 10px;
+    padding-top: 54px;
+}
+
+    .block-nd p {
+        font-size: 28px;
+        font-weight: 600;
+        margin-top: -18px;
+        margin-left: -391px;
+    }

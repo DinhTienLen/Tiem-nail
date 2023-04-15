@@ -1,0 +1,43 @@
+﻿html {
+    background-color: #F5F5F5;
+}
+
+.text-ttgh {
+    font-size: 41px;
+    text-align: left;
+    padding: 20px 0px;
+    background-color: #F5F5F5;
+    font-weight: 700;
+}
+
+.input-ttgh {
+    font-size: 39px;
+    width: 100%;
+    margin: 10px 0px;
+    background-color: white;
+    height: 80px;
+    border: none;
+}
+
+.btnhoanthanh {
+    font-size: 55px;
+    width: 50%;
+    height: 100px;
+    background: #ff6e8f;
+    cursor: pointer;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 10px;
+    text-align: center;
+    transform: translateX(50%);
+    border: none;
+}
+
+.base {
+    margin: 9% 0 21% 0;
+    position: relative;
+}
+.abc {
+    border: 0;
+    border-top: 3px solid rgba(0,0,0,.1);
+}
